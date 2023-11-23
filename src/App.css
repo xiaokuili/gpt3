@@ -1,0 +1,60 @@
+* {
+  box-zieing: border-box;
+  padding: 0;
+  margin: 0;
+
+  scroll-behavior: smooth;
+
+}
+
+body { 
+  background-color: var(--color-bg) ;
+}
+
+a {
+  color: unset; 
+  text-decoration: none;
+}
+
+
+.gradient__bg {
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+}
+
+/* 字体和字体大小： 保持一致的字体和字体大小有助于创建一致的文本样式，使用户能够轻松阅读和理解内容。
+
+颜色： 维护一致的颜色方案可以创造一个视觉上一致的界面。这包括文本颜色、背景颜色、按钮颜色等。
+
+行高（line height）： 一致的行高有助于提高文本的可读性，使文本在页面上更加均匀分布。
+
+图标： 如果你在应用中使用图标，尽量保持相同的图标风格和尺寸，以确保一致性。
+
+按钮样式： 如果应用中有多个按钮，尽量使用相同的按钮样式，包括边框、背景色和文本样式。
+
+输入框样式： 保持输入框的样式一致，包括边框、背景和文本样式。
+
+阴影和边框样式： 如果你使用阴影或边框来突出显示某些元素，尽量保持这些样式的一致性。
+
+布局结构： 在页面布局中，尽量保持一致的结构，例如相似的网格系统或栅格系统。
+
+动画效果： 如果你在应用中使用动画效果，尽量保持一致的动画风格，以避免用户感到混乱。
+
+间距和边距： 保持一致的间距和边距可以使页面元素看起来更有秩序，用户更容易理解布局 */

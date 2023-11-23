@@ -1,0 +1,109 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem ;
+}
+
+.nav_logo-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_logo-links_logo {
+    width: 8rem;
+    height: 1.5rem;
+    margin-right: 2rem;
+}
+
+
+.nav_logo-links_links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_login  {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.nav_login p, 
+.nav_logo-links_links p{
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav_login button {
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #FF4820;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.nav_mobile_menu {
+    display: none ;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .nav_logo-links_links {
+        display: none;
+ 
+    }
+
+    .nav_logo-links_logo {
+        margin-right: 1rem  ;
+    }
+
+    .nav_login button {
+        width: 6rem;
+        height: 2rem;
+    }
+
+    .nav_mobile_menu {
+        display: flex;
+        position: relative;
+        margin-left: 1rem;
+    }
+
+    
+    /* 定义弹出动画 */
+    @keyframes bounceIn {
+        0% {
+        transform: scale(0.1);
+        opacity: 0;
+        }
+        60% {
+        transform: scale(1.2);
+        opacity: 1;
+        }
+        100% {
+        transform: scale(1);
+        opacity: 1;
+        }
+    }
+  
+
+ 
+
+    .nav_mobile_menu_links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 2rem;
+        left: -2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 8rem;
+        animation: bounceIn 1s ease-out;
+    }
+    .nav_mobile_menu_links p {
+        color: white;
+    }
+}
