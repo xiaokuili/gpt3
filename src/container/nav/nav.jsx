@@ -39,7 +39,7 @@ const Menu = () => {
 const Navbar = () => {
   const [isCollape, setIsCollape] = useState(false);
   return (
-    <div className="nav">
+    <div className="nav section__padding">
       <div className="nav_logo-links">
         <div className="nav_logo-links_logo">
           <img src={logo} alt="logo" />

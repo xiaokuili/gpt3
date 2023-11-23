@@ -3,14 +3,14 @@
     display: flex; 
     justify-content: space-between;
     align-items: flex-start;
-    padding-left: 4rem; 
+
 }
 
 .header_text-pic_text {
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: 26rem;
+    margin-right: 13rem;
 }
 
 .header_text-pic_img {

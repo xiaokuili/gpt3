@@ -8,7 +8,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <div className="header_text-pic">
+      <div className="header_text-pic section__padding">
         <div className="header_text-pic_text">
           <div className="header_text-pic_text_title">
             Let’s Build Something amazing with GPT-3 OpenAI
